@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5", //For Calling APIs
+    "dotenv": "^16.4.7", //For Storing Passwords
+    "express": "^4.21.2",
+    "mysql": "^2.18.1" //Our Server
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9" //Automatically monitors for changes, no need to restart server
+  }
+}
